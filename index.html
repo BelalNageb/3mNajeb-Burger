@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover the best burger experience at 3m-Najeb Burger. Enjoy delicious menus, creative designs, and professional service in a welcoming atmosphere."
+    />
+    <title>3m-Najeb Burger</title>
+    <!-- Reset and Rander Elements -->
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <!-- Main Burger CSS File -->
+    <link rel="stylesheet" href="CSS/main.css" />
+    <!-- My Fonts Awesome File  -->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <!-- Start Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Scroll Top Button -->
+    <div class="scroll-top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <!-- End Scroll Top Button -->
+    <!-- Start Setting Box -->
+    <div class="setting-box">
+      <div class="setting-icon">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+      <div class="setting-options">
+        <div class="color-options">
+          <h4>Colors:</h4>
+          <ul class="colors">
+            <li data-color="rgb(255 173 9)"></li>
+            <li data-color="#00bcd4"></li>
+            <li data-color="#ff5722"></li>
+            <li data-color="#e91e63"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="setting-options">
+        <div class="random-background">
+          <h4>Random Background</h4>
+          <div class="spans">
+            <span class="yes" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Setting Box -->
+    <!-- Start Landing-Page  -->
+    <div class="landing-page" id="home">
+      <div class="over-layer"></div>
+      <div class="header">
+        <div class="logo">
+          <img
+            src="Imgs/286968802_107411861999947_4630304107466220169_n-removebg-preview.png"
+            alt="logo img"
+          />
+          <p>3m-Najeb</p>
+        </div>
+        <ul class="links">
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="description-text">
+        <h1>Discover the Best Burger in Town!</h1>
+        <p>
+          Fresh, juicy, and full of flavor. Burger 3m-Najeb brings you a burger
+          experience you won’t forget. Come and taste it today!
+        </p>
+      </div>
+    </div>
+    <!-- End Landing-Page  -->
+    <!-- Start About Us Section -->
+    <div class="about-us" id="about">
+      <div class="contanier">
+        <h2 class="special-heading">About Us</h2>
+        <div class="about-content">
+          <div class="about-img">
+            <img src="Imgs/047cce9e90cb1a3f7ba2977608b6bea3.jpg" alt="" />
+          </div>
+          <div class="about-description">
+            <h3>We Invite you to Visit Our Restaurant</h3>
+            <p>
+              At Burger 3m-Najeb, we’re passionate about serving you the best
+              burgers in town! Our journey began with a simple idea: to create a
+              burger experience that combines bold flavors, fresh ingredients,
+              and a touch of creativity.<br />
+              Every burger we craft is a masterpiece, made with love and care.
+              We believe in sourcing only the freshest produce, premium-quality
+              meats, and the finest toppings to ensure every bite is
+              unforgettable.<br />
+              Whether you’re craving a classic cheeseburger or looking to try
+              one of our gourmet creations, we’ve got something for everyone.
+              Our mission is to bring people together over great food in a
+              welcoming and fun atmosphere.
+            </p>
+            <h3>Follow Us</h3>
+            <p>
+              <a
+                href="https://www.facebook.com/3mnajeeb?locale=ar_AR"
+                target="_blank"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-whatsapp"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About Us Section -->
+    <!-- Start Menu -->
+    <div class="menu-section" id="menu">
+      <div class="contanier">
+        <h2 class="special-heading">Menu</h2>
+        <div class="sections">
+          <div class="active">All</div>
+          <div>Burger</div>
+          <div>Pizza</div>
+          <div>sandwich</div>
+        </div>
+        <div class="menu-products">
+          <i class="fa-solid fa-arrow-right right"></i>
+          <i class="fa-solid fa-arrow-left left"></i>
+          <div class="product-box" data-category="sandwich">
+            <div class="product-img">
+              <img
+                src="Imgs/Sandwitches-Menu/Chopped-Beef-Sandwich-square.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-description">
+              <h3>BBQ Chicken Sandwich</h3>
+              <p>
+                A juicy BBQ chicken sandwich with smoky grilled chicken, fresh
+                lettuce, tomatoes, and a tangy BBQ sauce.
+              </p>
+              <h4 class="price">Price: <span>$8.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="pizza">
+            <div class="product-img">
+              <img
+                src="Imgs/Pizza-menu/461771984-18465853702010862-2291.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-description">
+              <h3>Margherita Pizza</h3>
+              <p>
+                A classic pizza with a thin crust, rich tomato sauce, fresh
+                mozzarella, and fragrant basil leaves.
+              </p>
+              <h4 class="price">Price: <span> $12.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="burger">
+            <div class="product-img">
+              <img
+                src="Imgs/Burger_menu/3831dbe2-352e-4409-a2e2-fc87d11c.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-description">
+              <h3>Cheese Lover's Burger</h3>
+              <p>
+                A juicy burger loaded with cheddar, Swiss, and American cheese,
+                topped with grilled onions and mayo.
+              </p>
+              <h4 class="price">Price: <span>$10.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="pizza">
+            <div class="product-img">
+              <img
+                src="Imgs/Pizza-menu/__opt__aboutcom__coeus__resource.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-description">
+              <h3>Pepperoni Pizza</h3>
+              <p>
+                A favorite for pizza lovers, loaded with spicy pepperoni and
+                gooey mozzarella on a crispy crust.
+              </p>
+              <h4 class="price">Price: <span>$14.49</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="burger">
+            <div class="product-img">
+              <img
+                src="Imgs/Burger_menu/classic-hamburger-stock-photo-is.webp"
+                alt=""
+              />
+            </div>
+            <div class="product-description">
+              <h3>Classic Hamburger</h3>
+              <p>
+                A timeless favorite made with 100% beef patty, lettuce,
+                tomatoes, onions, and our house-made ketchup
+              </p>
+              <h4 class="price">Price: <span>$7.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="pizza">
+            <div class="product-img">
+              <img
+                src="Imgs/Pizza-menu/best-veggie-pizza-featured-image.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-description">
+              <h3>Veggie Pizza</h3>
+              <p>
+                A colorful pizza topped with bell peppers, olives, mushrooms,
+                onions, and fresh mozzarella.
+              </p>
+              <h4 class="price">Price: <span>$11.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="burger">
+            <div class="product-img">
+              <img
+                src="Imgs/Burger_menu/0b87c96ab61a232f8da9c646fb675306.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-description">
+              <h3>Classic Chicken Burger</h3>
+              <p>
+                A delicious classic chicken burger made with a crispy chicken
+                fillet, fresh lettuce, tomatoes.
+              </p>
+              <h4 class="price">price: <span>$13.49</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="sandwich">
+            <div class="product-img">
+              <img
+                src="Imgs/Sandwitches-Menu/Homemade-Hot-Beef-Sandwich-7-cop.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-description">
+              <h3>BBQ Beef Sandwich</h3>
+              <p>
+                A savory homemade hot beef sandwich with smoky grilled beef,
+                melted cheese, caramelized onions.
+              </p>
+              <h4 class="price">Price: <span>$9.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="pizza">
+            <div class="product-img">
+              <img src="Imgs/Pizza-menu/image-9811-1694263920.jpg" alt="" />
+            </div>
+            <div class="product-description">
+              <h3>Four Cheese Pizza</h3>
+              <p>
+                A delicious pizza loaded with four different cheeses:
+                mozzarella, cheddar, parmesan, and gouda.
+              </p>
+              <h4 class="price">price: <span>$13.49</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="burger">
+            <div class="product-img">
+              <img src="Imgs/Burger_menu/Easy-Burger-Recipe.webp" alt="" />
+            </div>
+            <div class="product-description">
+              <h3>Classic Cheeseburger</h3>
+              <p>
+                A delicious cheeseburger made with a juicy beef patty, melted
+                cheddar cheese, lettuce, tomatoes.
+              </p>
+              <h4 class="price">price: <span>$8.49</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="pizza">
+            <div class="product-img">
+              <img
+                src="Imgs/Pizza-menu/istockphoto-938742222-612x612.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-description">
+              <h3>Supreme Pizza</h3>
+              <p>
+                Delicious pizza with pepperoni, sausage, peppers, mushrooms, and
+                melted mozzarella.
+              </p>
+              <h4 class="price">price: <span>$14.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="sandwich">
+            <div class="product-img">
+              <img src="Imgs/Sandwitches-Menu/italian-beef-recipe.jpg" alt="" />
+            </div>
+            <div class="product-description">
+              <h3>Italian Beef Sandwich</h3>
+              <p>
+                Juicy Italian beef served with melted cheese and topped with
+                savory herbs.
+              </p>
+              <h4 class="price">price: <span>$10.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="burger">
+            <div class="product-img">
+              <img
+                src="Imgs/Burger_menu/gettyimages-182744943-612x612.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-description">
+              <h3>Beef Burger</h3>
+              <p>
+                A classic beef burger with lettuce, tomatoes, and a tangy sauce.
+              </p>
+              <h4 class="price">price: <span>$8.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="sandwich">
+            <div class="product-img">
+              <img
+                src="Imgs/Sandwitches-Menu/Roast-Beef-Sandwich-with-Arugula.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-description">
+              <h3>Roast Beef Sandwich</h3>
+              <p>
+                Juicy roast beef with arugula, creamy mayo, and fresh bread.
+              </p>
+              <h4 class="price">price: <span>$7.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="pizza">
+            <div class="product-img">
+              <img src="Imgs/Pizza-menu/paneer-pizza-recipe-1.jpg" alt="" />
+            </div>
+            <div class="product-description">
+              <h3>Paneer Pizza</h3>
+              <p>
+                A delicious pizza topped with paneer, fresh vegetables, and
+                melted cheese.
+              </p>
+              <h4 class="price">price: <span>$11.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="sandwich">
+            <div class="product-img">
+              <img src="Imgs/Sandwitches-Menu/Sandwich-image001.jpg" alt="" />
+            </div>
+            <div class="product-description">
+              <h3>Grilled Chicken Sandwich</h3>
+              <p>
+                A tasty sandwich filled with grilled chicken, lettuce, tomatoes,
+                and mayo.
+              </p>
+              <h4 class="price">price: <span>$7.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="burger">
+            <div class="product-img">
+              <img src="Imgs/Burger_menu/images (1).jpg" alt="" />
+            </div>
+            <div class="product-description">
+              <h3>Classic Beef Burger</h3>
+              <p>
+                A juicy beef patty topped with lettuce, tomato, onions, and a
+                savory sauce.
+              </p>
+              <h4 class="price">price: <span>$8.49</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="pizza">
+            <div class="product-img">
+              <img
+                src="Imgs/Pizza-menu/pizza-isolate-medium-size-top-vi.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-description">
+              <h3>Deluxe Pizza</h3>
+              <p>
+                A delicious pizza topped with pepperoni, sausage, mushrooms,
+                olives, and extra cheese.
+              </p>
+              <h4 class="price">price: <span>$12.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="burger">
+            <div class="product-img">
+              <img src="Imgs/Burger_menu/images.jpg" alt="" />
+            </div>
+            <div class="product-description">
+              <h3>Classic Burger</h3>
+              <p>
+                A juicy beef patty topped with fresh lettuce, tomatoes, onions,
+                and a slice of cheddar cheese.
+              </p>
+              <h4 class="price">price: <span>$8.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="sandwich">
+            <div class="product-img">
+              <img
+                src="Imgs/Sandwitches-Menu/Steak-Sandwich-Features.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-description">
+              <h3>Steak Sandwich</h3>
+              <p>
+                Tender steak slices topped with sautéed onions, peppers, and
+                melted cheese on a toasted bun.
+              </p>
+              <h4 class="price">price: <span>$12.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="burger">
+            <div class="product-img">
+              <img
+                src="Imgs/Burger_menu/pngtree-food-beef-burger-png-ima.png"
+                alt=""
+              />
+            </div>
+            <div class="product-description">
+              <h3>Beef Burger</h3>
+              <p>
+                Classic beef burger made with a juicy patty, fresh lettuce,
+                tomatoes, onions, and your choice of sauce.
+              </p>
+              <h4 class="price">price: <span>$9.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="pizza">
+            <div class="product-img">
+              <img src="Imgs/Pizza-menu/pizza-recipe-1.jpg" alt="" />
+            </div>
+            <div class="product-description">
+              <h3>Cheese Pizza</h3>
+              <p>
+                A simple and delicious pizza topped with mozzarella cheese,
+                fresh basil, and a rich tomato sauce.
+              </p>
+              <h4 class="price">price: <span>$10.99</span></h4>
+            </div>
+          </div>
+          <div class="product-box" data-category="burger">
+            <div class="product-img">
+              <img
+                src="Imgs/Burger_menu/wholesomeyum-Best-Burger-Recipe-.jpg"
+                alt=""
+              />
+            </div>
+            <div class="product-description">
+              <h3>Classic Beef Burger</h3>
+              <p>
+                A juicy beef patty grilled to perfection, served with fresh
+                lettuce, tomato, and a rich special sauce.
+              </p>
+              <h4 class="price">price: <span>$8.99</span></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Menu -->
+    <!-- Start Contact-Section -->
+    <div class="contact-section" id="contact">
+      <div class="contanier">
+        <h2 class="special-heading">Contact</h2>
+        <p>get in touch with us</p>
+        <div class="contact-box">
+          <div class="our-information">
+            <h3>Get closer</h3>
+            <p>
+              Below you'll find our contact details including our phone, email,
+              location, and open hours. Reach out anytime—we're here to help and
+              look forward to hearing from you.
+            </p>
+            <div class="our-description">
+              <div class="colm">
+                <div class="colm-description">
+                  <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="description">
+                    <h4>location</h4>
+                    <p>Alexandria,Miami-Askander Ibrahim</p>
+                  </div>
+                </div>
+                <div class="colm-description">
+                  <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="description">
+                    <h4>Email</h4>
+                    <p>
+                      <a href="mailto:belalnageb795@gmail.com"
+                        >contact@burger.com</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="colm">
+                <div class="colm-description">
+                  <div class="icon">
+                    <i class="fa-solid fa-phone-volume"></i>
+                  </div>
+                  <div class="description">
+                    <h4>Phone</h4>
+                    <p>+20-1140387839</p>
+                  </div>
+                </div>
+                <div class="colm-description">
+                  <div class="icon">
+                    <i class="fa-solid fa-clock"></i>
+                  </div>
+                  <div class="description">
+                    <h4>Open-Hour</h4>
+                    <p>09.00 Am - 11.00 Pm</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="social">
+              <h4>Our Social Media</h4>
+              <div class="social-logos">
+                <a
+                  href="https://www.facebook.com/3mnajeeb?locale=ar_AR"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-facebook"></i
+                ></a>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+            </div>
+          </div>
+          <div class="user-information">
+            <h3>Your Details</h3>
+            <form action="" method="get" id="contact-form">
+              <div class="user-details">
+                <div class="user-name">
+                  <label for="">First Name <span>*</span></label>
+                  <input type="text" placeholder="Your Name" name="user-name" />
+                </div>
+                <div class="user-name">
+                  <label for="">Your Address <span>*</span></label>
+                  <input
+                    type="email"
+                    placeholder="email@yourmail.com"
+                    name="email"
+                    id="email"
+                    required
+                  />
+                  <span id="email-error"
+                    >This Is Invalid email address. Please enter a valid email.
+                  </span>
+                </div>
+              </div>
+              <div class="user-subject">
+                <label for="">Subject <span>*</span></label>
+                <input
+                  id="email-address"
+                  type="text"
+                  placeholder="Subject"
+                  name="subject"
+                />
+              </div>
+              <div class="user-message">
+                <label for="">Comments / Questions <span>*</span></label>
+                <input
+                  type="text"
+                  maxlength="500"
+                  placeholder="Your Message"
+                  name="massege"
+                />
+              </div>
+              <div class="submit">
+                <input type="submit" value="Sumit Message" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  End Contact-Section  -->
+    <!-- Start newsletter-section-->
+    <div class="newsletter-section">
+      <div class="contanier">
+        <div class="subscribe-content">
+          <h2>Subscribe Our Newsletter</h2>
+          <p>Get the latest updates and offers straight to your inbox.</p>
+        </div>
+        <form action="">
+          <input type="email" required placeholder="Email" />
+          <div class="button">
+            <button type="submit">
+              <i class="fa-solid fa-paper-plane"></i> Subscribe Now
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End newsletter-section -->
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="contanier">
+        <hr />
+        <div class="footer-description">
+          <div class="designer">
+            Burger Website Designed & Developed by <span>Belal Nageb</span>
+          </div>
+          <div class="copyright">
+            copyright &copy; 2025. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+    <!-- Script-File -->
+    <script src="JS/main.js"></script>
+  </body>
+</html>
