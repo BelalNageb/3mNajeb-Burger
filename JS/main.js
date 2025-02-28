@@ -90,10 +90,10 @@ randomBackgroundElement.forEach(function (el) {
 // Change BackGround Image of Landing Page
 let landingPage = document.querySelector(".landing-page");
 let imgsArray = [
-  "../Imgs/Hero-big-cheese-box.jpg",
-  "../Imgs/thumb-1920-1074612.jpg",
-  "../Imgs/burger_hamburger_buns_116170_1920x1080.jpg",
-  "../Imgs/food-minimalism-art-burger-wallpaper-f9d0f8ddf14aed7b36b7d82f90b1b67d.jpg",
+  "/Imgs/Hero-big-cheese-box.jpg",
+  "/Imgs/thumb-1920-1074612.jpg",
+  "/Imgs/burger_hamburger_buns_116170_1920x1080.jpg",
+  "/Imgs/food-minimalism-art-burger-wallpaper-f9d0f8ddf14aed7b36b7d82f90b1b67d.jpg",
 ];
 let currentIndex = 0;
 function startRandomBackground() {
