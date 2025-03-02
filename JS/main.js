@@ -59,7 +59,9 @@ colorlist.forEach(function (el) {
     localStorage.setItem("color", e.target.dataset.color);
   });
 });
+
 // ###################################################################
+// Start functionality of Random-background Options
 let backgroundInterval = null;
 
 // Switch Random-Background
@@ -86,24 +88,28 @@ randomBackgroundElement.forEach(function (el) {
     }
   });
 });
-
+// ########################################################################
 // Change BackGround Image of Landing Page
 let landingPage = document.querySelector(".landing-page");
 let imgsArray = [
-  "/3mNajeb-Burger/Imgs/Hero-big-cheese-box.jpg",
-  "/3mNajeb-Burger/Imgs/thumb-1920-1074612.jpg",
-  "/3mNajeb-Burger/Imgs/burger_hamburger_buns_116170_1920x1080.jpg",
-  "/3mNajeb-Burger/Imgs/food-minimalism-art-burger-wallpaper-f9d0f8ddf14aed7b36b7d82f90b1b67d.jpg",
+  "/Imgs/Hero-big-cheese-box.jpg",
+  "/Imgs/thumb-1920-1074612.jpg",
+  "/Imgs/burger_hamburger_buns_116170_1920x1080.jpg",
+  "/Imgs/food-minimalism-art-burger-wallpaper-f9d0f8ddf14aed7b36b7d82f90b1b67d.jpg",
 ];
 
 let currentIndex = 0;
+
+landingPage.style.backgroundImage = `url('${imgsArray[0]}?v=${Date.now()}')`;
+
 function startRandomBackground() {
   backgroundInterval = setInterval(() => {
     currentIndex = (currentIndex + 1) % imgsArray.length;
-    landingPage.style.backgroundImage = `url("${imgsArray[currentIndex]}")`;
+    landingPage.style.backgroundImage = `url("${
+      imgsArray[currentIndex]
+    }?v=${Date.now()}")`;
   }, 5000);
 }
-
 // Start the Random Backgound By Defualt
 startRandomBackground();
 // #############################################################################
