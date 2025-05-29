@@ -116,6 +116,6 @@
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/3m-najeb-burger.git
+git clone https://github.com/BelalNageb/3m-najeb-burger.git
 cd 3m-najeb-burger
 ```
